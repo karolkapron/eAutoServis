@@ -18,8 +18,13 @@ namespace BAJK.EAutoSerwis.solution.xUsvc
             {
 
                 Console.WriteLine("Car to do check on is {0} {1} from {2} last check on {3}", car.Brand, car.Model, car.Year, car.LastCheckUp);
+              
             }
-            Console.ReadLine();
+
+            foreach(Car car in CarLot.FindAllTheSameBrands("Opel"))
+            {
+                Console.WriteLine("Car {0} {1} {2}", car.Brand, car.Model, car.Year);
+            }
         }
     }
 }

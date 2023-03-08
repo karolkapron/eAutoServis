@@ -37,7 +37,8 @@ namespace BAJK.EAutoSerwis.solution.xLib
         {
             return YearsDiff.Diff(this.lastCheckUp, DateTime.Now) > 1;
         }
-        
+
+         
     }
     public static class YearsDiff
     {
@@ -51,6 +52,7 @@ namespace BAJK.EAutoSerwis.solution.xLib
     public interface ICarLot
     {
         Car[] FindExpiredCheckUp();
+        Car[] FindAllTheSameBrands(string name);
     }
 
     public class CarLot : ICarLot
@@ -67,6 +69,11 @@ namespace BAJK.EAutoSerwis.solution.xLib
         {
             IList<Car> foundCars = cars.Where(c => c.IsCheckUpExpired()).ToList();
 
+            return foundCars.ToArray();
+        }
+        public Car[] FindAllTheSameBrands(string name)
+        {
+            IList <Car> foundCars = cars.Where(c => c.Brand == name).ToList();
             return foundCars.ToArray();
         }
     }
