@@ -25,6 +25,8 @@ namespace BAJK.EAutoSerwis.solution.xUsvc
             {
                 Console.WriteLine("Car {0} {1} {2}", car.Brand, car.Model, car.Year);
             }
+
+            Console.ReadLine();
         }
     }
 }

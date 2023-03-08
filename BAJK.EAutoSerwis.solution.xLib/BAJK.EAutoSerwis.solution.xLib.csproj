@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+	  <Compile Include="CarLot.cs" />
+	  <Compile Include="ICarLot.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
