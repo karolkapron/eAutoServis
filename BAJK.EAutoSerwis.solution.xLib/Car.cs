@@ -9,20 +9,23 @@ namespace BAJK.EAutoSerwis.solution.xLib
     public class Car
     {
         private int year;
-        private String make;
+        private string brand;
+        private string model;
         private int speed;
         private DateTime lastCheckUp;
 
-        public Car(int year, string make, int speed, DateTime lastCheckUp)
+        public Car(int year, string brand, string model, int speed, DateTime lastCheckUp)
         {
             this.Year = year;
-            this.Make = make;
+            this.model = model;
+            this.Brand = brand;
             this.Speed = speed;
             this.lastCheckUp = lastCheckUp;
         }
 
         public int Year { get => year; set => year = value; }
-        public string Make { get => make; set => make = value; }
+        public string Brand { get => brand; set => brand = value; }
+        public string Model { get => model; set => Model = value; }
         public int Speed { get => speed; set => speed = value; }
         public DateTime LastCheckUp { get => lastCheckUp;}
 
@@ -54,10 +57,10 @@ namespace BAJK.EAutoSerwis.solution.xLib
     {
         private readonly Car[] cars = new Car[]
         {
-            new Car(2009, "VW", 0, DateTime.Now),
-            new Car(2019, "Citroen", 0, new DateTime(2019, 12, 2)),
-            new Car(2013, "Opel", 0, new DateTime(2023, 2, 4)),
-            new Car(2021, "Reanult", 0, new DateTime(2021, 9, 21))
+            new Car(2009, "VW", "Passat", 0, DateTime.Now),
+            new Car(2019, "Citroen", "Cactus", 0, new DateTime(2019, 12, 2)),
+            new Car(2013, "Opel", "Astra", 0, new DateTime(2023, 2, 4)),
+            new Car(2021, "Reanult", "Clio", 0, new DateTime(2021, 9, 21))
         };
 
         public Car[] FindExpiredCheckUp()

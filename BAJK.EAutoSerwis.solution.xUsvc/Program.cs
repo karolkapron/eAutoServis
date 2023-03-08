@@ -17,7 +17,7 @@ namespace BAJK.EAutoSerwis.solution.xUsvc
             foreach (Car car in CarLot.FindExpiredCheckUp())
             {
 
-                Console.WriteLine("Car to do check on is {0} from {1} last check on {2}", car.Make, car.Year, car.LastCheckUp);
+                Console.WriteLine("Car to do check on is {0} {1} from {2} last check on {3}", car.Brand, car.Model, car.Year, car.LastCheckUp);
             }
             Console.ReadLine();
         }
