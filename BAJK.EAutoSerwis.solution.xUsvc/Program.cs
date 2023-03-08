@@ -16,8 +16,6 @@ namespace BAJK.EAutoSerwis.solution.xUsvc
 
             foreach (Car car in CarLot.FindExpiredCheckUp())
             {
-                //string shapeDescription = shape.GetDescription();
-                //double shapeArea = shape.GetArea();
 
                 Console.WriteLine("Car to do check on is {0} from {1} last check on {2}", car.Make, car.Year, car.LastCheckUp);
             }
