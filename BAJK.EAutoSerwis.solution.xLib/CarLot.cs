@@ -14,6 +14,7 @@ namespace BAJK.EAutoSerwis.solution.xLib
             new Car(2009, "VW", "Passat", 0, DateTime.Now),
             new Car(2019, "Citroen", "Cactus", 0, new DateTime(2019, 12, 2)),
             new Car(2013, "Opel", "Astra", 0, new DateTime(2023, 2, 4)),
+            new Car(2015, "Opel", "Zafira", 0, new DateTime(2023, 3, 4)),
             new Car(2021, "Reanult", "Clio", 0, new DateTime(2021, 9, 21))
         };
 
