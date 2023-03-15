@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "BAJK.EAutoSerwis.Car.WebApplication": {
+    "BAJK.EAutoSerwis.Car.WebService": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

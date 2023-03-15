@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAJK.EAutoSerwis.solution.x
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAJK.EAutoSerwis.solution.xLib", "BAJK.EAutoSerwis.solution.xLib\BAJK.EAutoSerwis.solution.xLib.csproj", "{5CA13CA2-1BDC-4E18-84A7-210D8795777C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAJK.EAutoSerwis.Car.WebApplication", "BAJK.EAutoSerwis.Car.WebApplication\BAJK.EAutoSerwis.Car.WebApplication.csproj", "{600871B2-D46D-433D-B139-0C6C701613AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAJK.EAutoSerwis.Car.WebService", "BAJK.EAutoSerwis.Car.WebService\BAJK.EAutoSerwis.Car.WebService.csproj", "{600871B2-D46D-433D-B139-0C6C701613AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
