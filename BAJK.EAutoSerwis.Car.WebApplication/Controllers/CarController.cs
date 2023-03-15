@@ -1,4 +1,4 @@
-﻿namespace WebApplication
+﻿namespace BAJK.EAutoSerwis.Car.WebApplication.Controllers
 {
     using BAJK.EAutoSerwis.solution.xLib;
     using System;
@@ -20,20 +20,20 @@
         public CarController(ILogger<CarController> logger)
         {
             this.logger = logger;
-            this.carLot = new CarLot();
+            carLot = new CarLot();
         }
 
         [HttpGet]
         [Route("GetExpiredCheckUp")]
         public Car[] FindExpiredCheckUp()
         {
-            return this.carLot.FindExpiredCheckUp();
+            return carLot.FindExpiredCheckUp();
         }
         [HttpGet]
         [Route("GetSameBrands")]
         public Car[] FindAllTheSameBrands(string name)
         {
-            return this.carLot.FindAllTheSameBrands(name);
+            return carLot.FindAllTheSameBrands(name);
         }
     }
 }
