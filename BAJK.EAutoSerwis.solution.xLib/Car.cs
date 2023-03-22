@@ -46,8 +46,11 @@ namespace BAJK.EAutoSerwis.solution.xLib
         {
             return YearsDiff.Diff(this.lastCheckUp, DateTime.Now) > 1;
         }
+        public override string ToString()
+        {
+            return this.brand;
+        }
 
-         
     }
     public static class YearsDiff
     {

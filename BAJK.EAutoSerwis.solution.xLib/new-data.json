@@ -1,0 +1,30 @@
+[
+  {
+    "year": 2014,
+    "brand": "Opel",
+    "model": "Adam",
+    "speed": 0,
+    "lastCheckUp": "2023-03-14T00:00:00"
+  },
+  {
+    "year": 2008,
+    "brand": "VW",
+    "model": "Scirocco",
+    "speed": 0,
+    "lastCheckUp": "2023-09-25T08:49:28.8710645+01:00"
+  },
+  {
+    "year": 2021,
+    "brand": "Mazda",
+    "model": "MX-3",
+    "speed": 0,
+    "lastCheckUp": "2020-11-23T00:00:00"
+  },
+  {
+    "year": 2014,
+    "brand": "Reanult",
+    "model": "Megan",
+    "speed": 0,
+    "lastCheckUp": "2021-07-11T00:00:00"
+  }
+]

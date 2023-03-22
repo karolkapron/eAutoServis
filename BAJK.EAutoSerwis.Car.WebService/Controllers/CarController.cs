@@ -37,9 +37,9 @@
         }
         [HttpPost]
         [Route("AddNewCar")]
-        public void AddNewCar(Car car)
+        public void AddNewCar(CarDto newCar)
         {
-            carLot.AddNewCar(car);
+            carLot.AddNewCar(newCar);
         }
     }
 }
