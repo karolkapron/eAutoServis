@@ -35,5 +35,11 @@
         {
             return carLot.FindAllTheSameBrands(name);
         }
+        [HttpPost]
+        [Route("AddNewCar")]
+        public void AddNewCar(Car car)
+        {
+            carLot.AddNewCar(car);
+        }
     }
 }
