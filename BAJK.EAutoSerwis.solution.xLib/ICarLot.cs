@@ -12,5 +12,6 @@ namespace BAJK.EAutoSerwis.solution.xLib
     {
         Car[] FindExpiredCheckUp();
         Car[] FindAllTheSameBrands(string name);
+        void AddNewCar(CarDto newCar);
     }
 }

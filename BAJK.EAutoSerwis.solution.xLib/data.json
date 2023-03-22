@@ -1,0 +1,37 @@
+[
+  {
+    "year": 2013,
+    "brand": "Opel",
+    "model": "Astra",
+    "speed": 0,
+    "lastCheckUp": "2023-02-04T00:00:00"
+  },
+  {
+    "year": 2015,
+    "brand": "Opel",
+    "model": "Zafira",
+    "speed": 0,
+    "lastCheckUp": "2023-03-04T00:00:00"
+  },
+  {
+    "year": 2009,
+    "brand": "VW",
+    "model": "Passat",
+    "speed": 0,
+    "lastCheckUp": "2023-03-15T08:49:28.8710645+01:00"
+  },
+  {
+    "year": 2019,
+    "brand": "Citroen",
+    "model": "Cactus",
+    "speed": 0,
+    "lastCheckUp": "2019-12-02T00:00:00"
+  },
+  {
+    "year": 2021,
+    "brand": "Reanult",
+    "model": "Clio",
+    "speed": 0,
+    "lastCheckUp": "2021-09-21T00:00:00"
+  }
+]

@@ -15,6 +15,14 @@ namespace BAJK.EAutoSerwis.solution.xLib
         private int speed;
         private DateTime lastCheckUp;
 
+        public Car(int year, string model, DateTime lastCheckUp)
+        {
+            this.Year = year;
+            this.model = model;
+            this.Brand = brand;
+            this.Speed = 0;
+            this.lastCheckUp = lastCheckUp;
+        }
         public Car(int year, string brand, string model, int speed, DateTime lastCheckUp)
         {
             this.Year = year;
@@ -38,8 +46,11 @@ namespace BAJK.EAutoSerwis.solution.xLib
         {
             return YearsDiff.Diff(this.lastCheckUp, DateTime.Now) > 1;
         }
+        public override string ToString()
+        {
+            return this.brand;
+        }
 
-         
     }
     public static class YearsDiff
     {
