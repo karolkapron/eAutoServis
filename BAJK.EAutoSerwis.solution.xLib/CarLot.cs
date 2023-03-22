@@ -9,6 +9,7 @@ namespace BAJK.EAutoSerwis.solution.xLib
 {
     public class CarLot : ICarLot
     {
+
         private List<Car> cars = new List<Car>
         {
             new Car(2009, "VW", "Passat", 0, DateTime.Now),
